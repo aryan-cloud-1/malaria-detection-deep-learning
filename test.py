@@ -24,3 +24,4 @@ if prediction > 0.5:
     print("Parasitized (Malaria Detected)")
 else:
     print("Uninfected")
+    

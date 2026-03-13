@@ -49,4 +49,6 @@ plt.plot(history.history['accuracy'])
 plt.plot(history.history['val_accuracy'])
 plt.legend(['Train','Validation'])
 plt.title("Model Accuracy")
+
+plt.savefig("accuracy.png")   # saves graph as image
 plt.show()
