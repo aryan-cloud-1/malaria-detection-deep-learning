@@ -22,3 +22,9 @@ NIH Malaria Cell Images Dataset
    python train.py
 3. Test with an image:
    python test.py
+
+   ## Web App
+
+Run the malaria detection app:
+
+streamlit run app.py
